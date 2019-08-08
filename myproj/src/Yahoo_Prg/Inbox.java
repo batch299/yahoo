@@ -12,5 +12,6 @@ public class Inbox extends MainClass
 	  Thread.sleep(5000);
 	  driver.findElement(By.xpath(InboxP.xcheckbox)).click();
 	  driver.findElement(By.xpath(InboxP.xdelete)).click();
+	  System.out.println("learning GitHub");
   }
 }
